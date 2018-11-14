@@ -12,7 +12,7 @@ namespace LINQtoXML
     {
         static void Main(string[] args)
         {
-
+            //func
             Expression<Func<int, int, int>> add = (x, y) => x + y;
             Func<int, int, int> IAdd = add.Compile();
 
